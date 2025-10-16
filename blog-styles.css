@@ -45,3 +45,46 @@ body {
 .nav-link:hover {
     color: #f7b367;
 }
+
+.hero {
+    background: linear-gradient(to right, #f7b367);
+    color: #fff;
+    text-align: center;
+    padding: 90px 30px;
+    border-bottom: 3px solid #d96244;
+}
+
+.hero-title {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 20px
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color: #fff;
+    color: #333;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn:hover {
+    background-color: rgba(118, 97, 61, 0.4);
+    border: 3px solid rgba(118, 97, 61, 0.4);
+    opacity: 1.0;
+}
