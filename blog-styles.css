@@ -6,13 +6,13 @@
 
 body {
     font-family: "Poppins", Arial, sans-serif;
-    background-color: #faf7f2;
-    color: #333;
+    background-color: #1a1d29;
+    color: #f0f0f0;
     line-height: 1.6;
 }
 
 .navbar {
-    background-color: #4a3f35;
+    background-color: #252a41;
     color: #fff;
     padding: 15px 0;
 }
@@ -28,6 +28,7 @@ body {
 .nav-logo h2 {
     font-size: 1.6rem;
     font-weight: 600;
+    color: #4a90e2;
 }
 
 .nav-menu {
@@ -36,22 +37,22 @@ body {
 }
 
 .nav-link {
-    color: #fff;
+    color: #f0f0f0;
     text-decoration: none;
     font-weight: 500;
     transition: color 0.3s;
 }
 
 .nav-link:hover {
-    color: #f7b367;
+    color: #4a90e2;
 }
 
 .hero {
-    background: linear-gradient(to right, #f7b367);
+    background: linear-gradient(135deg, #2d5b8a, #1e3a5f);    
     color: #fff;
     text-align: center;
     padding: 90px 30px;
-    border-bottom: 3px solid #d96244;
+    border-bottom: 3px solid #3a4159;
 }
 
 .hero-title {
@@ -61,7 +62,7 @@ body {
 
 .hero-subtitle {
     font-size: 1.5rem;
-    margin-bottom: 20px
+    margin-bottom: 20px;
 }
 
 .btn {
@@ -70,11 +71,13 @@ body {
     border-radius: 8px;
     text-decoration: none;
     font-weight: bold;
+    transition: all 0.3s ease;
 }
 
 .btn-primary {
-    background-color: #fff;
-    color: #333;
+    background-color: #4a90e2;
+    color: white;
+    border: 2px solid #4a90e2;
 }
 
 .btn-secondary {
@@ -83,22 +86,30 @@ body {
     color: #fff;
 }
 
-.btn:hover {
-    background-color: rgba(118, 97, 61, 0.4);
-    border: 3px solid rgba(118, 97, 61, 0.4);
-    opacity: 1.0;
+.btn-primary:hover {
+    background-color: #3a7bc8;
+    color: white;
+    border-color: #3a7bc8;
+    transform: translateY(-2px);
+}
+
+.btn-secondary:hover {
+    background-color: #fff;
+    color: #2d5b8a;
+    border-color: #fff;
+    transform: translateY(-2px);
 }
 
 .features {
     padding: 50px 20px;
-    background-color: #fff;
+    background-color: #252a41;
 }
 
 .section-title {
     text-align: center;
     font-size: 2rem;
     margin-bottom: 30px;
-    color: #4a3f35;
+    color: #fff;
 }
 
 .features-grid {
@@ -110,23 +121,23 @@ body {
 }
 
 .feature-card {
-    background-color: #fdf5ee;
+    background-color: #2f3549;
     padding: 25px;
     border-radius: 12px;
     text-align: center;
     transition: transform 0.2s ease, box-shadow 0.2s ease;
-    border: 1px solid #f0dfd0;
+    border: 1px solid #3a4159;
 }
 
 .feature-card:hover {
     transform: translateY(-6px);
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
 }
 
 .footer {
     text-align: center;
     padding: 15px;
-    background-color: #4a3f35;
+    background-color: #252a41;
     color: #fff;
     margin-top: 30px;
     font-size: 0.9rem;
