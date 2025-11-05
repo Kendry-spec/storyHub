@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>storyHub - Sign In</title>
+    <link rel="stylesheet" href="blog-styles.css">
+</head>
+<body id="signUp-body">
+    <div class="acc-container"> 
+        <div class="form-section">
+            <div class="logo">
+                <h1>storyHub</h1>
+            </div>
+            <h2 id="sub-head">Welcome Back</h2>
+            <p class="head-subtitle">Sign in to continue to your account</p>
+
+            <form action="" id="signup-form" method="post">
+                <!-- Email input field-->
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
+                </div>
+                
+                <!-- Password input field -->
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+
+                <div class="options">
+                    <!-- Checkbox input field -->
+                    <div class="remember">
+                        <input type="checkbox" id="remember" name="remember" required>
+                        <label for="remember">Remember me</label>
+                    </div>
+                    <a href="#" class="forgot-password">Forgot password?</a>
+                </div>
+
+                <!-- Submit button -->
+                <button type="submit" class="form-btn">Sign In</button>
+
+                <!-- Login link -->
+                 <div class="login-link">
+                    Don't have an account? <a href="/signUp.html">Sign up</a>
+                 </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
